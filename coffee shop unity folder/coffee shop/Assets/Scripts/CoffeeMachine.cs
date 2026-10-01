@@ -2,15 +2,13 @@ using UnityEngine;
 
 public class CoffeeMachine : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    bool CoffeeMachineOn = true;
+
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (CoffeeMachineOn)
+        {
+            Debug.Log("Coffee Brewing..");
+        }
     }
 }
