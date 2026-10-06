@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-public class RandomObjectSelector : MonoBehaviour
+public class RandomItemSelector2 : MonoBehaviour
 {
     [SerializeField] private List<GameObject> gameObjects = new List<GameObject>();
 

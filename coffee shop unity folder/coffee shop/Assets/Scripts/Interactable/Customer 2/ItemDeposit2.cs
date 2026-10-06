@@ -1,10 +1,10 @@
 using UnityEngine;
 
-public class ItemDeposit : MonoBehaviour
+public class ItemDeposit2 : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject == RandomObjectSelector.selectedItem)
+        if (other.gameObject == RandomItemSelector2.selectedItem)
         {
             Debug.Log("Thank you!");
             Destroy(other.gameObject);
